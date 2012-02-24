@@ -14,9 +14,9 @@ app.configure ->
   app.use express.logger()
   app.use express.bodyParser()
   app.use express.methodOverride()
-  app.use express.cookieParser()
-  app.use express.session
-    secret: '12345'
+  #app.use express.cookieParser()
+  #app.use express.session
+  #  secret: '12345'
   app.use app.router
   app.use express.static "#{__dirname}/public"
 

@@ -6,6 +6,7 @@
       "express": "2.5.8"
     , "less": ">= 0.0.1"
     , "eco": ">= 0.0.1"
+    , "coffee-script": ">= 0.0.1"
     , "mongoose": ">= 0.0.1"
   }
 }
